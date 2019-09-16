@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'open sans', oswald;
+}
+
+main {
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+
+/* Flexbox for nav items */
+
+.nav-items {
+    display: flex;
+}
+
+.nav-items li {
+    margin: 0 1rem 0.5rem 1rem;
+    /* margin-right: 1rem;
+    margin-bottom: 0.5rem; */
+    padding: 0 1rem;
+    border: 2px solid #021a40;
+}
+
+.nav-items li:hover {
+    background-color: rgb(87, 156, 9);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.experience li {
+    list-style-type: circle;
+}
+
+.code-links {
+    display: flex;
+}
+
+.code-links li {
+    margin-right: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+h1 {
+    padding: 0 1rem;
+}
+
+h2 {
+    padding: 0.5rem 1rem;
+}
+
+h3 {
+    padding: 1rem;
+}
+
+h4 {
+    padding: 1rem;
+}
+
+p {
+    padding: 0 1rem;
+}
+
+img {
+    margin-bottom: 0.5rem;
+    width: 80%;
+    padding: 1rem;
+    border: 2px solid #021a40;
+    margin-left: 1rem;
+}
+
+.resume-info {
+    padding: 0 1rem;
+}
+
+@media screen and (min-width: 992px) {
+    main {
+        display: flex;
+    }
+    .top li {
+        justify-content: flex-end;
+    }
+    .nav-items li {
+        padding: 0.5rem 1rem;
+    }
+    .page-header {
+        display: flex;
+    }
+    img {
+        float: left;
+        width: 50%;
+    }
+    ul.nav-items {
+        margin-top: 0.5rem;
+        margin-left: 10rem;
+    }
+    /* .garden {
+        display: flex;
+    } */
+    /* .adoption {
+        display: flex;
+    } */
+}
